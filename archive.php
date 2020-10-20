@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
-<div class="wrapper">
+<div class="wrapper archives-blog">
   <div class="content">
+
+  
 
     <?php if ( have_posts() ) the_post(); ?>
 
@@ -34,6 +36,7 @@
   </div><!--/content-->
 
   <?php get_sidebar(); ?>
+
 
 </div> 
 
